@@ -414,10 +414,6 @@ body {
         border-radius: var(--radius-md);
     }
 
-    .content_f75fb0 aside /* fix weird ahh bug with chat profile being taller then the chat? */ {
-      /* margin-bottom: 1.52px !important; */
-    }
-
     .outer_c0bea0 /* profile outer */,
     .contentWrapper__08434  /* gif panel */ {
         border-radius: var(--radius-lg);
@@ -434,8 +430,17 @@ body {
         background-position: center calc(-1 * var(--border-thickness));
         background-size: 100% calc(100% + 2 * var(--border-thickness));
     }
+
+    .overlay_c0bea0 /* profile overlay */ {
+      background-color: var(--hover); /* better visibility */
+    }
+
     .root__24502 {
         background: none;
+    }
+
+    .scrollableContainer__74017 /* message box */  {
+      background-color: var(--hover); /* better visibility */
     }
 
     /* remove unnecessary backgrounds */
@@ -462,6 +467,30 @@ body {
 .chatGradient__36d07 /* remove chat gradient thingy*/ {
   display: none;
 }
+
+.container_e131a9 /* make voice call area have more padding */ {
+  padding: 12px;
+}
+
+.searchBar__97492 /* search bar background */ {
+  background-color: var(--hover);
+}
+
+
+/* call timer tweaks */
+.lineClamp1__4bd52 {
+    display: flex;
+}
+
+.lineClamp1__4bd52 p {
+  font-family: unset !important;
+}
+
+.lineClamp1__4bd52 p::before {
+    content: "•";
+    padding: 0 calc(var(--gap) - 8px);
+}
+
 
 /* chatbar.css */
 body {
