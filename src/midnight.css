@@ -469,7 +469,7 @@ body {
 }
 
 .container_e131a9 /* make voice call area have more padding */ {
-  padding: 12px;
+  padding: var(--gap) !important;
 }
 
 .searchBar__97492 /* search bar background */ {
