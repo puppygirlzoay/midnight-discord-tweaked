@@ -136,6 +136,17 @@ body {
     width: 100%;
   }
 
+  /* user panel tweaks */
+  .container__37e49 {
+    padding: 12px;
+    padding-left: 6px;
+  }
+
+  .avatarWrapper__37e49 {
+    padding: 6px;
+    border-radius: 12px;
+  }
+
   /* server list + channel list + user panel group */
   .sidebar_c48ade {
     margin: 0 var(--gap) var(--gap) var(--gap);
@@ -759,7 +770,20 @@ body {
         border-radius: 0 0 var(--radius-md) var(--radius-md);
       }
 
+      .replyBar__841c8 {
+        border-radius: 0;
+      }
+
       margin-top: 24px;
+    }
+
+    .replyBar__841c8,
+    .threadSuggestionBar__841c8 {
+      background-color: var(--hover);
+    }
+
+    .clipContainer__841c8 {
+      padding-top: 0px;
     }
 
     .scrollerSpacer__36d07 {
@@ -781,6 +805,7 @@ body {
       background-color: var(--hover);
     }
 
+    /* working on? */
     .banner__183e8 {
       background-color: var(--hover);
     }
