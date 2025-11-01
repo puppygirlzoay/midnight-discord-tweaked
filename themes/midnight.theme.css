@@ -3,11 +3,11 @@
  * @description a dark, customizable discord theme customized for my needs.
  * @author refact0r, puppygirlzoay
  * @version 1.0
- * @source https://github.com/refact0r/midnight-discord/blob/master/themes/midnight.theme.css
+ * @source https://github.com/puppygirlzoay/midnight-discord-tweaked/blob/master/themes/midnight.theme.css
 */
 
 /* import theme modules */
-@import url('https://refact0r.github.io/midnight-discord/build/midnight.css');
+@import url('https://github.com/puppygirlzoay/midnight-discord-tweaked/blob/master/build/midnight.css');
 
 body {
     /* font options */
