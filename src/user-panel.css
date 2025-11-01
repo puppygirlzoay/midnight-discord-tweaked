@@ -1,7 +1,7 @@
 @property --small-user-panel {
     syntax: 'off | on';
     inherits: false;
-    initial-value: off;
+    initial-value: off; 
 }
 
 @container body style(--small-user-panel: on) {
