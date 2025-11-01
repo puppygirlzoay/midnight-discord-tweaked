@@ -278,7 +278,7 @@ body {
         margin-top: calc(var(--custom-channel-header-height) * -1 - 16px);
     }
 
-    .content_f75fb0 > .outer_c0bea0 /* dm user panel */ {
+    .content_f75fb0 .outer_c0bea0 /* dm user panel */ {
         margin-left: var(--gap);
         overflow: hidden;
         height: auto;
@@ -472,8 +472,13 @@ body {
         border: 1px solid var(--border-subtle);
         background-position: center calc(-1 * var(--border-thickness));
         background-size: 100% calc(100% + 2 * var(--border-thickness));
+    }
+
+    
+    .overlay_c0bea0 {
         background-color: var(--hover);
     }
+
     .root__24502 {
         background: none;
     }
@@ -1728,13 +1733,13 @@ body {
     /* transparency/blur options */
     /* NOTE: TO USE TRANSPARENCY/BLUR, YOU MUST HAVE TRANSPARENT BG COLORS. FOR EXAMPLE: --bg-4: hsla(220, 15%, 10%, 0.7); */
     --transparency-tweaks: on; /* off: no changes, on: remove some elements for better transparency */
-    --remove-bg-layer: off; /* off: no changes, on: remove the base --bg-3 layer for use with window transparency (WILL OVERRIDE BACKGROUND IMAGE) */
+    --remove-bg-layer: on; /* off: no changes, on: remove the base --bg-3 layer for use with window transparency (WILL OVERRIDE BACKGROUND IMAGE) */
     --panel-blur: off; /* off: no changes, on: blur the background of panels */
     --blur-amount: 12px; /* amount of blur */
     --bg-floating: var(--bg-3); /* set this to a more opaque color if floating panels look too transparent. only applies if panel blur is on  */
 
     /* chatbar options */
-    --custom-chatbar: aligned; /* off: default chatbar, separated: chatbar separated from chat */
+    --custom-chatbar: off; /* off: default chatbar, separated: chatbar separated from chat */
     --chatbar-height: 47px; /* height of the chatbar (56px by default, 47px to align with user panel, 56px recommended for separated) */
 
     /* other options */
