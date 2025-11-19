@@ -1,7 +1,7 @@
 /* chatbar.css */
 body { 
   --chatbar-height: 47px;
-  --chatbar-padding: 8px;
+  --chatbar-padding: 12px;
 
   --custom-channel-textarea-text-area-height: var(--chatbar-height);
 }
