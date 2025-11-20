@@ -791,6 +791,15 @@
         .memberRowContainer__71c22.memberSelected__71c22 td {
             background: var(--bg-3);
         }
+
+        .overlay_c0bea0, .card__84832 { /* dm user panel overlays/cards */
+            background-color: var(--hover) !important;
+            backdrop-filter: none !important;
+        }
+
+        .button_a22cb0, .akaBadge__488b1 {
+            background-color: var(--hover);
+        }
     }
 
     ::selection,
