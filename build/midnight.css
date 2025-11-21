@@ -175,11 +175,6 @@ body {
       }
     }
 
-    .divider__488b1 {
-        -webkit-margin-start: 0;
-        margin-inline-start: 0;
-    }
-
     .dot__9293f {
       margin: 0;
     }
@@ -294,7 +289,7 @@ body {
     .content_f75fb0 .outer_c0bea0 /* dm user panel */ {
         margin-left: var(--gap);
         overflow: hidden;
-        height: 100%;
+        height: 100% !important;
         min-width: 340px;
         background-position: center calc(-1 * var(--border-thickness));
         background-size: 100% calc(100% + 2 * var(--border-thickness));
@@ -532,6 +527,11 @@ body {
   background-color: var(--hover);
 }
 
+/* dm title (where username is) dot margin */
+.divider__488b1 {
+  -webkit-margin-start: 0;
+  margin-inline-start: 0;
+}
 
 /* vencord call timer tweaks */
 .lineClamp1__4bd52 {
@@ -1495,6 +1495,57 @@ body {
         .button_a22cb0, .akaBadge__488b1 {
             background-color: var(--hover);
         }
+
+        .container__62dd3 {
+          background-color: var(--hover);
+        }
+
+        .primary_a22cb0 {
+          color: var(--text-3);
+        }
+
+        .inner_ab8609 {
+          background-color: transparent;
+        }
+
+        .outer_ab8609 {
+          background-color: #222230;
+        }
+
+        .dot__9293f {
+          margin: 0;
+          color: var(--text-4);
+        }
+
+        .bannerButton_de8008 {
+          color: var(--text-1) !important;
+        }
+
+        .outer_c0bea0.user-profile-modal-v2 {
+          background-color: var(--bg-3);
+        }
+
+        .outer_c0bea0.user-profile-modal-v2 .profile__9c3be  {
+          background-color: transparent;
+          box-shadow: none;
+        }
+
+        .overlay_c0bea0, .card__84832 {
+          background-color: var(--hover) !important;
+          backdrop-filter: none !important;
+        }
+
+        .button_a22cb0 {
+            background-color: var(--hover);
+        }
+
+        .akaBadge__488b1 {
+            background-color: var(--hover);
+        }
+
+        .outer_c0bea0.user-profile-popout {
+            background-color: var(--bg-3) !important;
+        }
     }
 
     ::selection,
@@ -1778,7 +1829,7 @@ body {
     /* background and dark colors */
     --bg-1: #45475a; /* dark buttons when clicked */
     --bg-2: #313244; /* dark buttons */
-    --bg-3: #181825; /* spacing, secondary elements */
+    --bg-3: rgba(36, 39, 58, 0.95); /* spacing, secondary elements */
     --bg-4: #1e1e2e; /* main background color */
     --hover: hsla(235, 15%, 53%, 0.1); /* channels and buttons when hovered */
     --active: hsla(235, 15%, 53%, 0.2); /* channels and buttons when clicked or selected */

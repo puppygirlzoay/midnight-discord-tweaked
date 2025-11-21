@@ -800,6 +800,57 @@
         .button_a22cb0, .akaBadge__488b1 {
             background-color: var(--hover);
         }
+
+        .container__62dd3 {
+          background-color: var(--hover);
+        }
+
+        .primary_a22cb0 {
+          color: var(--text-3);
+        }
+
+        .inner_ab8609 {
+          background-color: transparent;
+        }
+
+        .outer_ab8609 {
+          background-color: #222230;
+        }
+
+        .dot__9293f {
+          margin: 0;
+          color: var(--text-4);
+        }
+
+        .bannerButton_de8008 {
+          color: var(--text-1) !important;
+        }
+
+        .outer_c0bea0.user-profile-modal-v2 {
+          background-color: var(--bg-3);
+        }
+
+        .outer_c0bea0.user-profile-modal-v2 .profile__9c3be  {
+          background-color: transparent;
+          box-shadow: none;
+        }
+
+        .overlay_c0bea0, .card__84832 {
+          background-color: var(--hover) !important;
+          backdrop-filter: none !important;
+        }
+
+        .button_a22cb0 {
+            background-color: var(--hover);
+        }
+
+        .akaBadge__488b1 {
+            background-color: var(--hover);
+        }
+
+        .outer_c0bea0.user-profile-popout {
+            background-color: var(--bg-3) !important;
+        }
     }
 
     ::selection,

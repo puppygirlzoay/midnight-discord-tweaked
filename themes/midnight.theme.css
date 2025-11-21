@@ -82,7 +82,7 @@ body {
     /* background and dark colors */
     --bg-1: #45475a; /* dark buttons when clicked */
     --bg-2: #313244; /* dark buttons */
-    --bg-3: #181825; /* spacing, secondary elements */
+    --bg-3: rgba(36, 39, 58, 0.95); /* spacing, secondary elements */
     --bg-4: #1e1e2e; /* main background color */
     --hover: hsla(235, 15%, 53%, 0.1); /* channels and buttons when hovered */
     --active: hsla(235, 15%, 53%, 0.2); /* channels and buttons when clicked or selected */
